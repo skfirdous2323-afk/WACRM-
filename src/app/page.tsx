@@ -6,13 +6,12 @@ export default function HomePage() {
     <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-indigo-50 to-white">
       <div className="w-full max-w-md rounded-2xl bg-white p-8 shadow-xl">
         <div className="flex flex-col items-center">
-          {/* লোগো */}
-          <div className="mb-4 h-20 w-20 relative">
+          <div className="mb-4 h-24 w-24 relative">
             <Image
               src="/logo.png"
               alt="ZIVEXO CRM"
-              width={80}
-              height={80}
+              width={96}
+              height={96}
               className="object-contain"
             />
           </div>
